@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/rellayoutMiddle">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/sila1"
+            android:layout_width="160dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="370dp"
+            android:text="Siła"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/sila2"
+            android:layout_width="150dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="370dp"
+            android:gravity="center"
+            android:text="Siła"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/predkosc1Pole"
+            android:layout_width="190dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:backgroundTint="@color/checkbox1"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <TextView
+            android:id="@+id/predkosc2Pole"
+            android:layout_width="180dp"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            android:layout_height="44dp"
+            android:layout_marginTop="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+
+        <Button
+            android:id="@+id/buttonPredkosc"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/btn_clicked"
+            android:text="Oblicz" />
+
+        <TextView
+            android:id="@+id/predkosc1"
+            android:layout_width="150dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="60dp"
+            android:text="Prędkość"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/predkosc2"
+            android:layout_width="150dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Prędkość"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/sila1Pole"
+            android:layout_width="190dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:backgroundTint="@color/checkbox1"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <TextView
+            android:id="@+id/sila2Pole"
+            android:layout_width="175dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="445dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <Button
+            android:id="@+id/buttonSila"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_clicked"
+            android:text="Oblicz"/>
+        <TextView
+            android:id="@+id/praca1"
+            android:layout_width="180dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="670dp"
+            android:text="Praca"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/praca2"
+            android:layout_width="180dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="670dp"
+            android:gravity="center"
+            android:text="Praca"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"/>
+        <EditText
+            android:id="@+id/praca1Pole"
+            android:layout_width="190dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="745dp"
+            android:layout_marginLeft="8dp"
+            android:backgroundTint="@color/checkbox1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <TextView
+            android:id="@+id/praca2Pole"
+            android:layout_width="200dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="745dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <Button
+            android:id="@+id/buttonPraca"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="820dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_clicked"
+            android:text="Oblicz"/>
+        <TextView
+            android:id="@+id/cisnienie1"
+            android:layout_width="180dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="970dp"
+            android:text="Ciśnienie"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/cisnienie2"
+            android:layout_width="180dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="970dp"
+            android:gravity="center"
+            android:text="Ciśnienie"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/cisnienie1Pole"
+            android:layout_width="190dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="1045dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:backgroundTint="@color/checkbox1"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <TextView
+            android:id="@+id/cisnienie2Pole"
+            android:layout_width="190dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="1045dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <Button
+            android:id="@+id/buttonCiśnienie"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="1120dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_clicked"
+            android:text="Oblicz"/>
+        <TextView
+            android:id="@+id/moc1"
+            android:layout_width="180dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1270dp"
+            android:text="Moc"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/moc2"
+            android:layout_width="200dp"
+            android:layout_height="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1270dp"
+            android:gravity="center"
+            android:text="Moc"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/moc1Pole"
+            android:layout_width="190dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="1345dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:backgroundTint="@color/checkbox1"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <TextView
+            android:id="@+id/moc2Pole"
+            android:layout_width="190dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="1345dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <Button
+            android:id="@+id/buttonMoc"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="1420dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn_clicked"
+            android:text="Oblicz"/>
+    </RelativeLayout>
+</ScrollView>

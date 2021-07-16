@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/MilimetrKwadrat1"
+        android:title="@string/milimetrKwadrat"/>
+    <item android:id="@+id/CentymetrKwadrat1"
+        android:title="@string/centymetrKwadrat"/>
+    <item android:id="@+id/DecymetrKwadrat1"
+        android:title="@string/decymetrKwadrat"/>
+    <item android:id="@+id/MetrKwadrat1"
+        android:title="@string/metrKwadrat"/>
+    <item android:id="@+id/Ar1"
+        android:title="Ar"/>
+    <item android:id="@+id/Hektar1"
+        android:title="Hektar"/>
+</menu>

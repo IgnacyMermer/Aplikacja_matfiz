@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rellayoutMiddle"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_list"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/btn_clicked"
+            android:text="Wyczyść wszystko"
+            android:id="@+id/czyscicielTrygonometryczny"
+            android:layout_marginTop="4dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_below="@id/czyscicielTrygonometryczny"
+            android:layout_marginTop="4dp"
+            android:id="@+id/rellayoutGlowny"
+            android:background="@drawable/textview_rounded_black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:hint="Bok A"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:id="@+id/bokAtrygonometrycznyPole"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:hint="Bok B"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:id="@+id/bokBtrygonometrycznyPole"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:hint="Bok C"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:id="@+id/bokCtrygonometrycznyPole"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="260dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:hint="Kąt przy boku A"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:id="@+id/katAtrygonometrycznyPole"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="340dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:hint="Kąt przy boku B"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:id="@+id/katBtrygonometrycznyPole"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Pole"
+                android:layout_marginTop="420dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:id="@+id/poleTrygonometryczny"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/view"
+                android:layout_marginTop="595dp"
+                android:hint="Bok B"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:inputType="numberDecimal"
+                android:id="@+id/bokBtrygonometryczny"/>
+            <EditText
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/view"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:hint="Bok A"
+                android:gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:id="@+id/bokAtrygonometryczny"/>
+            <ImageView
+                android:id="@+id/view"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="470dp"
+                android:background="@drawable/trojkat"
+                android:rotation="180" />
+            <EditText
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="545dp"
+                android:hint="Bok C"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="80dp"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:id="@+id/bokCtrygonometryczny"
+                android:layout_marginLeft="80dp" />
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:id="@+id/buttonObliczTrygonometryczny"
+            android:text="Oblicz"
+            android:background="@drawable/btn_clicked"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/rellayoutGlowny"
+            android:layout_marginTop="45dp"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option2"
+        android:title="Gram"/>
+    <item
+        android:id="@+id/option3"
+        android:title="Dekagram"/>
+    <item
+        android:id="@+id/option4"
+        android:title="Kilogram"/>
+    <item
+        android:id="@+id/option5"
+        android:title="Tona"/>
+</menu>

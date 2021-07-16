@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/paskal"
+        android:title="Paskal"/>
+    <item android:id="@+id/hektopaskal"
+        android:title="Hektopaskal"/>
+    <item android:id="@+id/kilopaskal"
+        android:title="Kilopaskal"/>
+    <item android:id="@+id/atmosfera"
+        android:title="Atmosfera"/>
+    <item android:id="@+id/bar"
+        android:title="Bar"/>
+    <item android:id="@+id/megapaskal"
+        android:title="Megapaskal"/>
+</menu>

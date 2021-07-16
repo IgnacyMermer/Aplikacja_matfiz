@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/post_news_rounded"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jfkjfskfjksfjskjakdfnskfjnsdjfkdnsfjsdnfdfndsjfnksdjnfsdjfdjsnfds"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"
+        android:maxWidth="200dp"
+        android:id="@+id/tekstNewsa"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:text=""
+        android:id="@+id/idNewsa"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tekstNewsa"
+        android:textSize="15dp"
+        android:maxWidth="200dp"
+        android:text="WP Polska"
+        android:id="@+id/zrodloNewsa"
+        android:textColor="@android:color/black"
+        android:padding="10dp"/>
+</RelativeLayout>

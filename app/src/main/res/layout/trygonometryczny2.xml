@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rellayoutMiddle"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_list"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/btn_clicked"
+            android:text="Wyczyść wszystko"
+            android:id="@+id/buttonCzyscTrygonometryczny2"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:background="@drawable/textview_rounded_black"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/layout_srodkowy">
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/katATrygonometryczny2"
+                android:hint="Kąt A"
+                android:backgroundTint="@android:color/white"
+                android:inputType="numberDecimal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/sinusATrygonometryczny2"
+                android:hint="Sinus A"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:inputType="numberDecimal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="100dp"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/cosinusATrygonometryczny2"
+                android:textColor="@android:color/white"
+                android:hint="Cosinus C"
+                android:backgroundTint="@android:color/white"
+                android:inputType="numberDecimal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="180dp"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/TangensATrygonometryczny2"
+                android:hint="Tangens A"
+                android:backgroundTint="@android:color/white"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="260dp"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/CotangensATrygonometryczny2"
+                android:hint="Cotangens A"
+                android:backgroundTint="@android:color/white"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="340dp"/>
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_clicked"
+            android:layout_below="@id/layout_srodkowy"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/buttonObliczTrygonometryczny2"
+            android:text="Oblicz"/>
+    </RelativeLayout>
+</ScrollView>

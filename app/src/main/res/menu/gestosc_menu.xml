@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/GnaCM3"
+        android:title="@string/GnaCM3"/>
+    <item android:id="@+id/GnaDM3"
+        android:title="@string/GnaDM3"/>
+    <item android:id="@+id/KGnaCM3"
+        android:title="@string/KGnaCM3"/>
+    <item android:id="@+id/KGnaDM3"
+        android:title="@string/KGnaDM3"/>
+    <item android:id="@+id/KGnaM3"
+        android:title="@string/KGnaM3"/>
+</menu>

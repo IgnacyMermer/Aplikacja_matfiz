@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SilaCiagu"
+    android:id="@+id/drawerSilaCiagu_layout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rellayout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/rellayoutTopBar"
+        android:layout_alignParentTop="true">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.google.android.material.appbar.AppBarLayout>
+        <ImageButton
+            android:id="@+id/buttonBar"
+            android:layout_width="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_menu_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rellayoutTopBar"
+        android:layout_above="@+id/rellayoutBottomBar">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rellayoutMiddle"
+        android:layout_below="@+id/rellayoutTopBar"
+        android:layout_above="@+id/rellayoutBottomBar">
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:hint="Masa ciała"
+            android:id="@+id/masaCiala"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+        <Switch
+            android:id="@+id/wLewo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zwrot w lewo"
+            android:layout_marginTop="190dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:theme="@style/SCBSwitch"/>
+        <Switch
+            android:id="@+id/wPrawo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zwrot w prawo"
+            android:layout_marginTop="190dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginLeft="230dp"
+            android:theme="@style/SCBSwitch"/>
+        <EditText
+            android:id="@+id/silaCiala"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:hint="Siła działająca na ciało" />
+        <Button
+            android:id="@+id/buttonDodaj"
+            android:layout_width="153dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="250dp"
+            android:text="Dodaj"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mianownik" />
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="360dp"
+            android:layout_height="322dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="330dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonDodaj"
+            tools:ignore="MissingConstraints">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="350dp"
+                android:layout_height="322dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/listview_border"
+                android:layout_marginLeft="5dp"
+                android:choiceMode="multipleChoice" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonUsun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="222dp"
+            android:layout_marginLeft="222dp"
+            android:text="Usuń zaznaczone"
+            android:layout_marginTop="660dp"
+            tools:ignore="UnknownId" />
+        <EditText
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="730dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Przyspieszenie"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:id="@+id/przyspieszenieDod"/>
+        <EditText
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Siła naciągu liny"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:id="@+id/silaNaciagu"/>
+        <TextView
+            android:id="@+id/wynikPredkosc"
+            android:layout_width="305dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="870dp"
+            android:textSize="35dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/buttonOblicz"
+            android:layout_width="153dp"
+            android:layout_height="73dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1000dp"
+            android:text="Oblicz"/>
+
+
+    </RelativeLayout>
+    </ScrollView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/rellayoutBottomBar"
+            android:layout_alignParentBottom="true">
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/menu_nowe"
+                app:itemIconTint="@drawable/item_selectede"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/activity_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </LinearLayout>
+    <ExpandableListView
+        android:id="@+id/navList"
+        android:layout_gravity="left|start"
+        android:background="@android:color/white"
+        android:divider="@color/dividerColor"
+        android:dividerHeight="0.5dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:layout_width="300dp"
+        android:layout_height="match_parent">
+    </ExpandableListView>
+</androidx.drawerlayout.widget.DrawerLayout>

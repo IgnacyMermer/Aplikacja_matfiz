@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/milimetrSzescian"
+        android:title="@string/milimetrSzescian"/>
+    <item
+        android:id="@+id/centymetrSzescian"
+        android:title="@string/centymetrSzescian"/>
+    <item
+        android:id="@+id/decymetrSzescian"
+        android:title="@string/decymetrSzescian"/>
+    <item
+        android:id="@+id/metrSzescian"
+        android:title="@string/metrSzescian"/>
+    <item
+        android:id="@+id/ftSzescian"
+        android:title="@string/ftSzescian"/>
+    <item
+        android:id="@+id/kilometrSzescian"
+        android:title="@string/kilometrSzescian"/>
+</menu>

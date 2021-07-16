@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">matfiziak</string>
+    <string name="title_activity_szkola">Szkola</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_ulubione">Ulubione</string>
+    <string name="title_activity_konto">Konto</string>
+    <string name="title_activity_ustawienia">Ustawienia</string>
+    <string name="title_activity_frag1">Frag1</string>
+    <string name="title_activity_frag2">Frag2</string>
+    <string name="title_activity_grawitacja">Grawitacja</string>
+    <string name="title_activity_przyszpieszenie">Przyszpieszenie</string>
+    <string name="title_activity_ruchPoOkregu">RuchPoOkregu</string>
+    <string name="title_activity_keppler">Keppler</string>
+    <string name="title_activity_model_bohra">ModelBohra</string>
+    <string name="title_activity_zasady_dynamiki">ZasadyDynamiki</string>
+    <string name="title_activity_predkosc">Predkosc</string>
+    <string name="title_activity_przyszpieszenie_zwykle">PrzyszpieszenieZwykle</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="milimetrKwadrat">Milimetr
+        <sup><small>2</small></sup></string>
+    <string name="centymetrKwadrat">Centymetr
+        <sup><small>2</small></sup></string>
+    <string name="decymetrKwadrat">Decymetr
+        <sup><small>2</small></sup></string>
+    <string name="metrKwadrat">Metr
+        <sup><small>2</small></sup></string>
+    <string name="KilometrKwadrat">Kilometr
+        <sup><small>2</small></sup></string>
+    <string name="milaKwadrat">Mila
+        <sup><small>2</small></sup></string>
+    <string name="milimetrSzescian">Milimetr
+        <sup><small>3</small></sup></string>
+    <string name="centymetrSzescian">Centymetr
+        <sup><small>3</small></sup></string>
+    <string name="decymetrSzescian">Decymetr
+        <sup><small>3</small></sup></string>
+    <string name="metrSzescian">Metr
+        <sup><small>3</small></sup></string>
+    <string name="ftSzescian">ft
+        <sup><small>3</small></sup></string>
+    <string name="kilometrSzescian">Kilometr
+        <sup><small>3</small></sup></string>
+    <string name="x2">x<sup><small><small>2</small></small></sup>+</string>
+    <string name="MnaS"><sup>m</sup>/s</string>
+    <string name="MnaM"><sup>m</sup>/min</string>
+    <string name="KMnaH"><sup>km</sup>/h</string>
+    <string name="KMnaM"><sup>km</sup>/min</string>
+    <string name="KMnaS"><sup>km</sup>/s</string>
+    <string name="KGnaM3"><sup>kg</sup>/m3</string>
+    <string name="KGnaDM3"><sup>kg</sup>/dm3</string>
+    <string name="KGnaCM3"><sup>kg</sup>/cm3</string>
+    <string name="GnaDM3"><sup>g</sup>/dm3</string>
+    <string name="GnaCM3"><sup>g</sup>/cm3</string>
+    <string name="stopnie"><sup>o</sup></string>
+    <string name="title_activity_sila_ciagu">SilaCiagu</string>
+    <string name="title_activity_fizyka_kalkulator">FizykaKalkulator</string>
+    <string name="title_activity_matematyka_kalkulator">MatematykaKalkulator</string>
+    <string name="title_activity_pole_trojkata">pole_trojkata</string>
+    <string name="kropka"><sup><small>.</small></sup></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pole_trojkata_rownoramiennego">Pole_trojkata_rownoramiennego</string>
+    <string name="title_activity_pole_trojkata_roznobocznego">Pole trójkąta różnobocznego</string>
+    <string name="title_activity_strona_glowna">StronaGlowna</string>
+    <string name="title_activity_trygonometryczny">Trygonometryczny</string>
+    <string name="title_activity_strona_glowna2">StronaGlowna2</string>
+    <string name="title_activity_trojkaty">Trojkaty</string>
+    <string name="title_activity_romb">Romb</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_kalkulator_ulamkowy">KalkulatorUlamkowy</string>
+    <string name="title_activity_wyswietlanie_zdjecia">WyswietlanieZdjecia</string>
+    <string-array name="wielkosci">
+        <item>Wszystkie</item>
+        <item>4 klasa</item>
+        <item>5 klasa</item>
+        <item>6 klasa</item>
+        <item>7 klasa</item>
+        <item>8 klasa</item>
+        <item>1 klasa szk. średniej</item>
+        <item>2 klasa szk. średniej</item>
+        <item>3 klasa szk. średniej</item>
+        <item>4 klasa szk. średniej</item>
+        <item>5 klasa szk. średniej</item>
+    </string-array>
+    <string-array name="klasy">
+        <item>4 klasa</item>
+        <item>5 klasa</item>
+        <item>6 klasa</item>
+        <item>7 klasa</item>
+        <item>8 klasa</item>
+        <item>1 klasa szk. średniej</item>
+        <item>2 klasa szk. średniej</item>
+        <item>3 klasa szk. średniej</item>
+        <item>4 klasa szk. średniej</item>
+        <item>5 klasa szk. średniej</item>
+    </string-array>
+    <string-array name="dzialy">
+        <item>Wszystkie</item>
+        <item>Liczby</item>
+        <item>Geometria płaska</item>
+        <item>Geometria przestrzenna</item>
+        <item>Ułamki</item>
+        <item>Równania</item>
+        <item>Wyr. algebraiczne</item>
+        <item>Trygonometria</item>>
+    </string-array>
+</resources>

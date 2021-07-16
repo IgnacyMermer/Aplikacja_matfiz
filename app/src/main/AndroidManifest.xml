@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.matfiziak">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".DodajNews"></activity>
+        <activity android:name=".FunkcjaKwadratowa" />
+        <activity android:name=".ForumPackage.DodajOdpowiedz" />
+        <activity android:name=".ForumPackage.OtworzPost" />
+        <activity android:name=".ForumPackage.WyszukajPost" />
+        <activity android:name=".ForumPackage.DodajPost" />
+        <activity android:name=".CisnienieHydri" />
+        <activity android:name=".CisnienieAtm" />
+        <activity
+            android:name=".inne.WyswietlanieZdjecia"
+            android:label="@string/title_activity_wyswietlanie_zdjecia"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".PracaMocEnergia" />
+        <activity
+            android:name=".Konta.Konto2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Prostokat"
+            android:label="@string/title_activity_romb"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Kwadrat"
+            android:label="@string/title_activity_romb"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Czworokaty"
+            android:label="@string/title_activity_romb"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Romb"
+            android:label="@string/title_activity_romb"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Trojkaty"
+            android:label="@string/title_activity_trojkaty"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".podFragmenty.KalkulatorUlamkowy"
+            android:label="@string/title_activity_kalkulator_ulamkowy"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".inne.animacjaa"
+            android:label="@string/title_activity_strona_glowna2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".podFragmenty.Trygonometryczny"
+            android:label="@string/title_activity_trygonometryczny"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".podFragmenty.StronaGlowna"
+            android:label="@string/title_activity_strona_glowna"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Pole_trojkata_roznobocznego"
+            android:label="@string/title_activity_pole_trojkata_roznobocznego"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Pole_trojkata_rownoramiennego"
+            android:label="@string/title_activity_pole_trojkata_rownoramiennego"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".pole_trojkata"
+            android:label="@string/title_activity_pole_trojkata"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".MatematykaKalkulator"
+            android:label="@string/title_activity_matematyka_kalkulator"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".FizykaKalkulator"
+            android:label="@string/title_activity_fizyka_kalkulator"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".SilaCiagu"
+            android:label="@string/title_activity_sila_ciagu"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Frag2"
+            android:label="@string/title_activity_frag2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Frag1"
+            android:label="@string/title_activity_frag1"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ForumPackage.Forum"
+            android:label="@string/title_activity_ustawienia"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Konta.Konto"
+            android:label="@string/title_activity_konto"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Czaty.Czat"
+            android:label="@string/title_activity_ulubione"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Szkola"
+            android:label="@string/title_activity_szkola"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Grawitacja"
+            android:label="@string/title_activity_grawitacja"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Przyszpieszenie"
+            android:label="@string/title_activity_przyszpieszenie"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".RuchPoOkregu"
+            android:label="@string/title_activity_ruchPoOkregu"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Keppler"
+            android:label="@string/title_activity_keppler"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ModelBohra"
+            android:label="@string/title_activity_model_bohra"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ZasadyDynamiki"
+            android:label="@string/title_activity_zasady_dynamiki"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Predkosc"
+            android:label="@string/title_activity_predkosc"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".PrzyszpieszenieZwykle"
+            android:label="@string/title_activity_przyszpieszenie_zwykle"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Rownoleglobok"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".trapez_prostokatny"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Trapezy"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".trapez_rownoramienny"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Konta.RegisterActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Konta.LoginActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Konta.ForgotPassActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Czaty.Chat2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

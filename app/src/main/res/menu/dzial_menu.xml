@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/liczby"
+        android:title="Liczby"/>
+    <item android:id="@+id/geometriaPlaska"
+        android:title="Geometria płaska"/>
+    <item android:id="@+id/geometriaPrzestrz"
+        android:title="Geometria przestrzenna"/>
+    <item android:id="@+id/ulamki"
+        android:title="Ułamki"/>
+    <item android:id="@+id/rownania"
+        android:title="Równania"/>
+    <item android:id="@+id/wyrazenia"
+        android:title="Wyr. algebraiczne"/>
+    <item android:id="@+id/trygonometria"
+        android:title="Trygonometria"/>
+</menu>

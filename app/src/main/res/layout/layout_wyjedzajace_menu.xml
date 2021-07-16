@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottomSheetMenu"
+    android:background="@drawable/wyjezdzajace_menu_background"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Filtruj według:"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Wybierz klasę"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:id="@+id/wybierzKlaseMenu"/>-->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="180dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" >
+    </Spinner>
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="180dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" >
+    </Spinner>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_clicked"
+        android:layout_margin="15dp"
+        android:text="Zatwierdź"
+        android:id="@+id/btnZatwierdzMenu"/>
+</LinearLayout>

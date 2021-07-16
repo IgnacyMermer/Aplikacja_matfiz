@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/trzecia"
+        android:title="3 klasa"/>
+    <item android:id="@+id/czwarta"
+        android:title="4 klasa"/>
+    <item android:id="@+id/piata"
+        android:title="5 klasa"/>
+    <item android:id="@+id/szosta"
+        android:title="6 klasa"/>
+    <item android:id="@+id/siodma"
+        android:title="7 klasa"/>
+    <item android:id="@+id/osma"
+        android:title="8 klasa"/>
+    <item android:id="@+id/pierwszaLic"
+        android:title="1 klasa szk. średniej"/>
+    <item android:id="@+id/drugaLic"
+        android:title="2 klasa szk. średniej"/>
+    <item android:id="@+id/trzeciaLic"
+    android:title="3 klasa szk. średniej"/>
+    <item android:id="@+id/czwartaLic"
+        android:title="4 klasa szk. średniej"/>
+    <item android:id="@+id/piataLic"
+        android:title="5 klasa szk. średniej"/>
+</menu>
