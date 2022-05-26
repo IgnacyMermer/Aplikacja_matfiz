@@ -1,5 +1,7 @@
 package com.e.matfiziak;
 
+import static java.lang.Math.sqrt;
+
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.drawable.AnimationDrawable;
@@ -51,8 +53,6 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-
-import static java.lang.Math.sqrt;
 
 public class Pole_trojkata_rownoramiennego extends AppCompatActivity {
     private DrawerLayout mdrawerLayout;
@@ -108,7 +108,7 @@ public class Pole_trojkata_rownoramiennego extends AppCompatActivity {
         final EditText wysokosc = findViewById(R.id.wysokoscRownoramienny);
         final EditText wpisany = findViewById(R.id.wpisanyRownoramienny);
         final EditText opisany = findViewById(R.id.opisanyRownoramienny);
-        final EditText katA = findViewById(R.id.CARownoramienny);
+        final EditText katA = findViewById(R.id.katCRownoramienny);
         final EditText katC = findViewById(R.id.katCRownoramienny);
         jednostkaPodstawa = findViewById(R.id.jednostkaPodstawa);
         jednostkaPodstawa.setOnClickListener(new View.OnClickListener() {
@@ -696,13 +696,13 @@ public class Pole_trojkata_rownoramiennego extends AppCompatActivity {
                             Double a = Double.parseDouble(pole.getText().toString());
                             a = funkcjePrzelicznikowe.pole(a, jednostkaPole.getText().toString());
                             Double b = Double.parseDouble(podstawa.getText().toString());
-                            b = funkcjePrzelicznikowe.dlugosc(b, jednostkaPodstawa.getText().toString())
-                            Double c = Double.parseDouble(opisany.getText().toString())
-                            c = funkcjePrzelicznikowe.dlugosc(c, jednostkaOpisany.getText().toString())
-                            pierwszaLinia.setText(Html.fromHtml("P=a*b<sup><small><small>2</small></small></sup>/(4*R)"))
-                            drugaLinia.setText(Html.fromHtml("b<sup><small><small>2</small></small></sup>=P*4*R/a"))
-                            Double d = a * 4 * c / b
-                            trzeciaLinia.setText(Html.fromHtml("b=&#8730;" + d))
+                            b = funkcjePrzelicznikowe.dlugosc(b, jednostkaPodstawa.getText().toString());
+                            Double c = Double.parseDouble(opisany.getText().toString());
+                            c = funkcjePrzelicznikowe.dlugosc(c, jednostkaOpisany.getText().toString());
+                            pierwszaLinia.setText(Html.fromHtml("P=a*b<sup><small><small>2</small></small></sup>/(4*R)"));
+                            drugaLinia.setText(Html.fromHtml("b<sup><small><small>2</small></small></sup>=P*4*R/a"));
+                            Double d = a * 4 * c / b;
+                            trzeciaLinia.setText(Html.fromHtml("b=&#8730;" + d));
                             czwartaLinia.setText("");
                             ramie = sqrt(d);
                             ramie = funkcjePrzelicznikowe.dlugoscWynik(ramie, jednostkaWynik.getText().toString());
